@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+}
+
+/*selector + propiety + value
+
+selector {
+propiety: value
+
+*/
+
+p {
+    color: blue;
+    /*color: #b2d6f9; */
+    /*color: rgb(rgb(0, 0, 255)); */
+    /*color: rgba(0, 0, 255, 1); */
+    font-size: 16px;
+    margin: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #450;
+    text-align: center;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+div {
+    color: green;
+}
+
+span {
+    color: red;
+}
+
+div span {
+    color: green;
+}
+
+.description {
+    font-size: x-large;
+    color: palevioletred;
+    text-transform: uppercase;
+}
+
+
+.parf-contacto {
+    color: blue;
+    padding: 150px;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.block-element{
+    display: inline-block;
+    background-color: burlywood;
+    position: sticky;
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 30px;
+}
+
+/* Tamaño total = 
+width + padding izquierdo + padding derecho + 
+borde izquierdo + borde derecho + margin izquierdo + margin derecho*/
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    border: 2px solid greenyellow;
+    text-align: center;
+    line-height: 100px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: column wrap-reverse;
+    flex-grow: 10px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+
+.navbar {
+    background-color: lightgreen;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.main-content {
+    width: 75%;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    justify-items: center;
+    align-items: start;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.area-container {
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    align-content: space-evenly;
+}
+
+@media (min-width: 600px) {
+    .area-container {
+        font-size: 1.2em;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .area-container {
+        padding: 30px;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+}

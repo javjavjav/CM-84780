@@ -1,0 +1,122 @@
+<!DOCTYPE html> <!-- aclaracion de que es html -->
+<html lang="en"> <!-- define el lenguaje -->
+<head> <!-- config de pagina -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateo wiki</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+        background-color: lightblue;
+        }
+        h1 {
+        color: navy;
+        margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- <h1>tutilo</h1>
+<h2>sub</h2>
+<h3>encabezado</h3> -->
+
+<div class="block-element">
+    <p>inside div</p>
+    <span>also inside</span>
+</div>
+
+<header>
+    <h1>mateo wiki</h1>
+</header>
+
+<section>
+    <h2>subdom</h2>
+    <p>Caminaba cerca del <em>mar</em>, buscaba <strong>empanadas</strong> pero no habían</p>
+</section>
+
+<nav>
+    <a href="./contacto.html" target="_blank">contactos</a>
+    <a href="./imagenes.html" target="_blank">fotitos</a>
+</nav>
+
+<ol style="color: navy; margin-left: 20px;">
+    <li>necesito</li>
+    <li>comprar</li>
+    <li>agua</li>
+</ol>
+
+<!-- ctrl k c - comentario -->
+<ul>
+    <li>receta</li>
+    <li>comida</li>
+    <li>ingredientes</li>
+</ul>
+
+<!-- enlace absoluto -->
+<a href="https://tumblr.com">enfermedad mental</a>
+
+<!-- enlace relativo -->
+<a href="contacto.html">contacto</a>
+
+<!-- enlace interno -->
+<a href="#comidas">tipos de comida</a>
+
+<section id="comidas">
+    <p>comida humeda</p>
+</section>
+
+<video src="video.mp4" controls>videito</video>
+<audio src="mensaje.mp3" controls></audio>
+
+<table> 
+    <tr> 
+        <th>nombre</th>
+        <th>ciudad</th>
+        <th>edad</th>
+    </tr>
+    <tr>
+        <td>viejo lolero</td>
+        <td>talca</td>
+        <td>muerto</td>
+    </tr>
+</table>
+
+<!-- formularios -->
+<form action="/submit" method="post">
+    <label for="name">name:</label>
+    <input type="text" name="name" id="name">
+
+    <label for="password">password:</label>
+    <input type="password" name="password" id="password">
+
+    <label for="message">message:</label>
+    <textarea name="message" id="message"></textarea>
+
+    <label for="gender">gender:</label>
+    <input type="radio" name="" id="">
+    <label for="">man</label>
+
+    <input type="radio" name="" id="">
+    <label for="">woman</label>
+
+    <input type="radio" name="" id="">
+    <label for="">none</label>
+
+    <label for="suscribe">suscribe:</label>
+    <input type="checkbox" name="suscribe" id="suscribe">
+
+    <label for="city">location:</label>
+    <select name="" id="">
+        <option value="">north</option>
+        <option value="">centre</option>
+        <option value="">south</option>
+    </select>
+
+    <input type="submit" value="submit">
+</form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+.noticia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+    background: lightgray;
+}
+
+.noticia__titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+
+/* Bloque */
+.profile-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Elementos */
+.profile-card__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-card__name {
+  font-size: 1.5rem;
+  margin: 8px 0;
+}
+
+.profile-card__button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Modificador */
+.profile-card__button--primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
