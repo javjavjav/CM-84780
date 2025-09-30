@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    background-color: aquamarine;
+}
+
+h1 {
+    color: blueviolet;
+    font-family: "Kode Mono", monospace;
+    text-align: center;
+    font-style: oblique;
+    text-transform: lowercase;
+}
+
+.paseos{
+    text-align: center;
+    font-family: "Libertinus Keyboard", system-ui
+}
+
+.chota {
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+input {
+    width: 20%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+footer{
+    text-align: center;
+    color: brown;
+}
+
+nav{
+    text-align: center;
+    color: aqua;
+    padding: 0;
+    border: 0;
+}
+
+#popnmusic{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,22 @@
+.navbar_link {
+    color: aquamarine;
+}
+
+.navbar_link:hover{
+    color: aqua;
+    background-color: black;
+    border: 2px solid blue;
+}
+
+.main_button {
+    background-color: pink;
+}
+
+.main_button:active {
+    background-color: palevioletred;
+}
+
+input:required{
+    border: 5px solid red;
+}
+

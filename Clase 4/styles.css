@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 75px 1fr 1fr;
+    grid-template-rows: 100px auto 50px;
+    gap: 10px;
+    grid-template-areas: 
+    "sidebar header header"
+    "sidebar main img"
+    "sidebar footer footer";
+
+}
+
+.item1 {
+    background-color: aqua;
+    grid-area: header;
+}
+.item2 {
+    background-color: lightcoral;
+    grid-area: sidebar;
+}
+.item3 {
+    background-color: burlywood;
+    grid-area: main;
+}
+.item4 {
+    background-color: greenyellow;
+    grid-area: footer;
+}
+.image {
+    width: 200px;
+}
+
+@media (min-width: 600px) {
+    .container{
+        background-color: red;
+    }
+}

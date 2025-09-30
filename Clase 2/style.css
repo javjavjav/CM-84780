@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cuadradito{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 200px;
+    border: 1px solid blue;
+    align-items: center;
+}
+
+.parrafo{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: smaller;
+}
