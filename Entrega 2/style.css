@@ -1,5 +1,6 @@
 *{
     padding: 0;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -12,7 +13,23 @@ h1 {
 
 .paseos{
     text-align: center;
-    font-family: "Libertinus Keyboard", system-ui
+    font-family: "Libertinus Keyboard", system-ui;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(28, 99, 75);
+    
+}
+
+.paseos-section {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.paseos-section img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 .chota {
@@ -64,11 +81,39 @@ p{
 }
 
 .footer_link {
-    color: aquamarine;
+    color: blueviolet;
 }
 
 .footer_link:hover{
-    color: aqua;
+    color: aquamarine;
     background-color: black;
     border: 2px solid blue;
+}
+
+@media screen and (max-width: 800px) {
+  .paseos-section {
+    flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .paseos-section {
+    flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.button {
+    background-color: pink;
+}
+
+.button:active {
+    background-color: palevioletred;
+}
+
+input:required{
+    border: 5px solid red;
 }
