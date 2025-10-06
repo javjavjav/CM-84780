@@ -62,6 +62,9 @@ nav{
 
 #popnmusic{
     text-align: center;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 p{
@@ -96,6 +99,7 @@ p{
     flex: 50%;
     max-width: 50%;
   }
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -117,3 +121,4 @@ p{
 input:required{
     border: 5px solid red;
 }
+
