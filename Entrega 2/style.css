@@ -1,6 +1,5 @@
 *{
     padding: 0;
-    background-color: rgb(206, 253, 238);
 }
 
 h1 {
@@ -57,4 +56,19 @@ p{
 .container-fluid {
     background-color: coral;
     color: blue;
+}
+
+.navbar {
+    color: blue;
+
+}
+
+.footer_link {
+    color: aquamarine;
+}
+
+.footer_link:hover{
+    color: aqua;
+    background-color: black;
+    border: 2px solid blue;
 }
