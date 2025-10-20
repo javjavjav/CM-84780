@@ -1,0 +1,53 @@
+/* .box {
+    transform: translateX(50px) translateY(50px) rotate(45deg);
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+} */
+
+body {
+    background-image: linear-gradient(to right, red, blue);
+}
+
+button {
+    background-color: aquamarine;
+    color: green;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 5s ease, transform 2s ease;
+}
+
+button:hover {
+    background-color: red;
+    transform: scale(1.9);
+}
+
+@keyframes move {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(100px);}
+    100% {transform: translateX(0);}
+}
+
+@keyframes appear {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes turn {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: move 2s infinite;
+    animation: turn 10s linear infinite;
+}
+
+.text {
+    font-size: 20px;
+    animation: appear 5s ease-in-out;
+}
