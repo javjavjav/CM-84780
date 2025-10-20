@@ -1,0 +1,187 @@
+body {
+  background-color: aliceblue;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  text-align: justify;
+  color: rgb(15, 134, 15);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  color: blueviolet;
+  font-family: "Kode Mono", monospace;
+  text-align: center;
+  font-style: oblique;
+  text-transform: lowercase;
+}
+
+input {
+  width: 20%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+  color: brown;
+}
+footer .footer_link {
+  color: blueviolet;
+}
+footer .footer_link .footer_link:hover {
+  color: aquamarine;
+  background-color: black;
+  border: 2px solid blue;
+}
+
+nav {
+  text-align: center;
+  color: aqua;
+  padding: 0;
+  border: 0;
+}
+nav .navbar {
+  color: blue;
+}
+
+.paseos {
+  text-align: center;
+  font-family: "Libertinus Keyboard", system-ui;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(28, 99, 75);
+}
+.paseos .paseos-section {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.paseos .paseos-section .paseos-section img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.index-container {
+  display: grid;
+  grid-template-columns: 75px 1fr 1fr;
+  grid-template-rows: 100px auto 50px;
+  gap: 10px;
+  grid-template-areas: "sidebar img img" "sidebar header header" "sidebar main main";
+  padding: 25px;
+  margin: 10px;
+}
+.index-container .item1 {
+  grid-area: header;
+  color: #0b08c7;
+}
+.index-container .item2 {
+  grid-area: sidebar;
+  color: #6260da;
+  font-weight: bold;
+  background-color: rgb(129, 240, 203);
+  margin: auto;
+  border-radius: 2px;
+}
+.index-container .item3 {
+  grid-area: main;
+}
+.index-container .image {
+  width: 200px;
+}
+
+.container-fluid {
+  background-color: coral;
+  color: blue;
+}
+
+#popnmusic {
+  text-align: center;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+#popnmusic .image-popnmusic {
+  border-radius: 10px;
+  width: 600px;
+}
+
+.parra-recs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(228, 130, 198);
+  padding: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+  margin: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .paseos-section {
+    flex: 50%;
+    max-width: 50%;
+  }
+  #popnmusic {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .paseos-section {
+    flex: 100%;
+    max-width: 100%;
+  }
+  #popnmusic {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.chota {
+  width: 200px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+}
+
+.button {
+  background-color: pink;
+  width: 50%;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+.button .button:active {
+  background-color: palevioletred;
+}
+
+input:required {
+  border: 5px solid red;
+}
+
+form {
+  border-radius: 5px;
+  background-color: #acabec;
+  padding: 20px;
+}
+
+label {
+  display: block;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #d616b6;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */

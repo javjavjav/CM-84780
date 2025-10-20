@@ -1,0 +1,21 @@
+$color-primary: aliceblue;
+
+body {
+    background-color: $color-primary;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: justify;
+    color: rgb(15, 134, 15);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+@import 'headers';
+@import 'paseos';
+@import 'index';
+@import 'popnmusic';
+@import 'media';
+@import 'survey';

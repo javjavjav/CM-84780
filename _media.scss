@@ -1,0 +1,21 @@
+@media screen and (max-width: 800px) {
+  .paseos-section {
+    flex: 50%;
+    max-width: 50%;
+  }
+  #popnmusic {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .paseos-section {
+    flex: 100%;
+    max-width: 100%;
+  }
+  #popnmusic {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

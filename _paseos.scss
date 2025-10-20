@@ -1,0 +1,17 @@
+.paseos {
+    text-align: center;
+    font-family: "Libertinus Keyboard", system-ui;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(28, 99, 75);
+        .paseos-section {
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+            .paseos-section img {
+                margin-top: 8px;
+                vertical-align: middle;
+                width: 100%;
+            }
+        }
+}

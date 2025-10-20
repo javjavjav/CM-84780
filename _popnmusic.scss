@@ -1,0 +1,21 @@
+#popnmusic{
+    text-align: center;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+        .image-popnmusic {
+        border-radius: 10px;
+        width: 600px;
+    }
+}
+
+.parra-recs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(228, 130, 198);
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    margin: 20px;
+}
